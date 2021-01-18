@@ -5,9 +5,9 @@ import (
     "net/http"
     "time"
  
-    "github.com/lutrueba/microblog/bd"
-    "github.com/lutrueba/microblog/jwt"
-    "github.com/lutrueba/microblog/models"
+    "github.com/CintiaMurashima/microblogg/bd"
+    //"github.com/CintiaMurashima/microblogg/jwt"
+    "github.com/CintiaMurashima/microblogg/models"
 )
  
 /*Login realiza el login de usuario

@@ -2,7 +2,7 @@ package middlew
  
 import (
     "net/http"
-    "github.com/lutrueba/microblog/bd"
+    "github.com/CintiaMurashima/microblogg/bd"
 )
  
 /*ChequeoBD es el middleware que me permite conocer el estado de la BD */

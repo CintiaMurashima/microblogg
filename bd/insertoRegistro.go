@@ -3,7 +3,7 @@ package bd
 import (
     "context"
     "time"
-    "github.com/lutrueba/microblog/models"
+    "github.com/CintiaMurashima/microblogg/models"
     "go.mongodb.org/mongo-driver/bson/primitive"
 )
  

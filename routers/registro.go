@@ -3,8 +3,8 @@ package routers
 import (
     "encoding/json"
     "net/http"
-    "github.com/cintiaMurashima/microblogg/bd"
-    "github.com/cintiaMurashima/microblog/models"
+    "github.com/CintiaMurashima/microblogg/bd"
+    "github.com/CintiaMurashima/microblogg/models"
 )
  
 /*Registro es la función para crear en la BD el registro de usuario*/
