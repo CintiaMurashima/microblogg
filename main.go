@@ -3,8 +3,8 @@ package main
 import (
 
     "log"
-    "github.com/CintiaMurashima/microblogging/handlers"
-    "github.com/CintiaMurashima/microblogging/bd"
+    "github.com/CintiaMurashima/microblogg/handlers"
+    "github.com/CintiaMurashima/microblogg/bd"
 )
 func main(){
     if bd.ChequeoConnection() == 0 {
