@@ -15,6 +15,8 @@ func Manejadores(){
     router := mux.NewRouter()
 	/*Por cada endPoint vamos a tener un reglon de cod que permita */
 	router.HandleFunc("/registro", middlew.ChequeoBD(routers.Registro)).Methods("POST")
+	router.HandleFunc("/login", middlew.ChequeoBD(routers.Login)).Methods("POST")
+
 	PORT := os.Getenv("PORT")
     if PORT == ""{
         PORT = "8080"

@@ -6,7 +6,7 @@ import (
     "time"
  
     "github.com/CintiaMurashima/microblogg/bd"
-    //"github.com/CintiaMurashima/microblogg/jwt"
+    "github.com/CintiaMurashima/microblogg/jwt"
     "github.com/CintiaMurashima/microblogg/models"
 )
  
@@ -16,7 +16,7 @@ como los otros endPoints, son prácticamente métodos*/
 func Login(w http.ResponseWriter, r *http.Request){
 // Vamos a setear en el header que el contenido que devolveremos (w)
 // será de tipo Json
-    w.Header().add("content-type","application/json")
+    w.Header().Add("content-type","application/json")
     
     var usu models.Usuario
     err := json.NewDecoder(r.Body).Decode(&usu)
